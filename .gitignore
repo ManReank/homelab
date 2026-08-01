@@ -1,0 +1,18 @@
+# Disk images
+*.qcow2
+*.img
+*.raw
+
+# Installer
+*.iso
+
+# Snapshots
+*.qcow2.snap
+
+# Temporary files
+*.log
+*.tmp
+
+# OS metadata
+.DS_Store
+Thumbs.db
