@@ -1,0 +1,7 @@
+<pool type='dir'>
+  <name>iso</name>
+
+  <target>
+    <path>/home/angel/lab/iso</path>
+  </target>
+</pool>

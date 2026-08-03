@@ -1,0 +1,7 @@
+<pool type='dir'>
+  <name>vm</name>
+
+  <target>
+    <path>/home/angel/lab/images/vm</path>
+  </target>
+</pool>
