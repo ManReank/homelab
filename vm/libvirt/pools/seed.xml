@@ -1,0 +1,7 @@
+<pool type='dir'>
+  <name>seed</name>
+
+  <target>
+    <path>/home/angel/lab/images/seed</path>
+  </target>
+</pool>
