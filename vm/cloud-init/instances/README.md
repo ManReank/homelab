@@ -11,8 +11,4 @@ Konfigurasi umum (user, SSH key, paket dasar, dan network default) berada di:
 
 ../common/
 
-Saat membuat VM baru:
 
-1. Buat direktori baru.
-2. Salin atau buat `meta-data`.
-3. Generate seed ISO menggunakan `common/user-data`, `common/network-config`, dan `instances/<vm>/meta-data`.

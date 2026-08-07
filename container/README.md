@@ -1,13 +1,11 @@
-# Container Lab
+# Container
 
-## Conventions
-- Semua service pakai docker-compose
-- Port mapping harus eksplisit
-- Tidak pakai latest tag
-- Volume harus jelas lokasinya
+Workspace untuk eksperimen container.
 
-## Structure
-app/
-infra/
-experiment/
+Contoh materi:
 
+- Docker
+- Docker Compose
+- Registry
+- Reverse Proxy
+- Multi-container Application

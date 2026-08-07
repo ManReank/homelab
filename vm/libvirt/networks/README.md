@@ -1,17 +1,14 @@
 # Libvirt Networks
 
-Direktori ini menyimpan definisi jaringan virtual libvirt.
+Definisi jaringan virtual libvirt.
 
-Seluruh file XML di sini dapat digunakan dengan:
+Digunakan dengan:
 
 virsh net-define
 
-Contoh network:
+Contoh:
 
-- default NAT
-- isolated
-- bridge
+- lab-net
 - management
 - storage
-
-Direktori ini tidak menyimpan konfigurasi layanan jaringan di dalam VM.
+- isolated

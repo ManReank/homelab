@@ -13,4 +13,4 @@ Contoh:
 - VPN
 - VLAN
 
-Direktori ini tidak berisi konfigurasi VM ataupun konfigurasi libvirt.
+

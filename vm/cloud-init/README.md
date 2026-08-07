@@ -1,5 +1,11 @@
-sudo cloud-localds \
-  --network-config=/home/angel/lab/vm/cloud-init/common/network-config \
-  /home/angel/lab/images/seed/......iso \
-  /home/angel/lab/vm/cloud-init/common/user-data \
-  /home/angel/lab/vm/cloud-init/instances/..../meta-data
+# Cloud-Init
+
+Konfigurasi Cloud-Init untuk provisioning virtual machine.
+
+## Struktur
+
+common/      Template yang dipakai bersama
+
+instances/   Metadata setiap VM
+
+templates/   Template tambahan

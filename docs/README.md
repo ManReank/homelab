@@ -1,25 +1,19 @@
-# Infra Lab
+# Infrastructure Learning Notes
 
-## Objective
-Membangun lab infra lokal untuk simulasi environment backend & DevOps
-dengan pendekatan production-like dan terdokumentasi.
+Direktori ini berisi seluruh catatan pembelajaran selama membangun homelab.
 
-## Purpose
-## Purpose
-Lab ini digunakan untuk membangun dan menguji sistem infrastruktur
-yang dapat direproduksi, dianalisis kegagalannya, dan didokumentasikan
-sebagai simulasi environment production.
+Tujuan dokumentasi bukan membuat tutorial, tetapi menyimpan alasan, keputusan, eksperimen, dan solusi agar proses belajar dapat diulang di kemudian hari.
 
-VM dan container dapat dihancurkan, tetapi konfigurasi, keputusan,
-dan pembelajaran tidak dianggap disposable.
+## Struktur
 
-## Rules
-- Host system tidak disentuh untuk eksperimen
-- Semua eksperimen diisolasi (VM / container)
-- Tidak reinstall host
-- Semua perubahan dicatat
+architecture/
+    Gambaran arsitektur lab.
 
-## Tooling Baseline
-- Debian 12 (host)
-- KVM + libvirt
-- Docker + docker-compose
+concepts/
+    Penjelasan konsep yang dipelajari.
+
+guides/
+    Langkah-langkah implementasi.
+
+troubleshooting/
+    Permasalahan yang pernah ditemui beserta solusinya.
