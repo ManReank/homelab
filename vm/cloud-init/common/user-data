@@ -1,13 +1,13 @@
 #cloud-config
 
 hostname: debian12-base
-
 timezone: Asia/Jakarta
 
 package_update: true
 
 packages:
   - qemu-guest-agent
+  - sudo
 
 users:
   - name: angel
@@ -15,14 +15,15 @@ users:
       - sudo
     shell: /bin/bash
     sudo: ALL=(ALL) NOPASSWD:ALL
-    lock_passwd: true
+    lock_passwd: false
+    passwd: $6$IP1HFfvYOQ4CPg3z$PkIih8cknj6GnlRM/lWenFR/.qKE72HaQLtuFgEkqQgEpcfi1c/asNuEc3pn0FlZUAROm78HHv277.5m7YbLs.
     ssh_authorized_keys:
       - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJV0r+HZgSfDwNunybihpXpTo7Fb2ULbcUhXs9nWnhU+ sastrakarya0@gmail.com
 
 ssh_pwauth: false
-
 disable_root: true
 
 runcmd:
   - systemctl enable qemu-guest-agent
   - systemctl start qemu-guest-agent
+
