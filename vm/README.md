@@ -1,9 +1,23 @@
-# Virtual Machines
+Virtual Machines
 
-Seluruh konfigurasi virtual machine menggunakan KVM/libvirt disimpan di sini.
+Direktori ini menyimpan konfigurasi dan resource yang berkaitan dengan virtual machine.
 
-## Struktur
+vm/
+├── cloud-init/   # Provisioning awal VM
+└── libvirt/      # Definisi infrastructure libvirt
 
-cloud-init/    Konfigurasi provisioning VM
+VM disk dan image tidak disimpan di direktori ini. Disk berada di images/vm/.
 
-libvirt/       Definisi domain, network, dan storage pool
+Alur umum provisioning:
+
+upstream image
+      ↓
+golden image
+      ↓
+cloud-init seed
+      ↓
+libvirt VM
+      ↓
+SSH
+      ↓
+configuration / automation
