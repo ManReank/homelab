@@ -1,6 +1,5 @@
 #cloud-config
 
-hostname: debian12-base
 timezone: Asia/Jakarta
 
 package_update: true
