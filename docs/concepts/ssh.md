@@ -1,10 +1,19 @@
 # SSH
 
-SSH digunakan untuk remote login.
+SSH (Secure Shell) is a protocol used for secure remote access and communication between systems.
 
-Autentikasi dapat menggunakan:
+In this homelab, SSH is used for two different purposes:
 
-- password
-- public key
+1. Remote administration of virtual machines.
+2. Authentication between the development VM and external services such as GitHub.
 
-Pada lab ini digunakan public key.
+## SSH Roles
+
+A system can act as either an SSH client or an SSH server.
+
+```text
+SSH Client
+    |
+    | SSH connection
+    v
+SSH Server
