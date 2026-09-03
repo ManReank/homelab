@@ -64,7 +64,7 @@ sudo virt-install \
     --vcpus "$VCPUS" \
     --cpu host \
     --import \
-    --osinfo debian11 \
+    --osinfo debian12 \
     --disk "path=$VM_DISK,bus=virtio" \
     --disk "path=$SEED_ISO,device=cdrom" \
     --network "network=$NETWORK,model=virtio" \

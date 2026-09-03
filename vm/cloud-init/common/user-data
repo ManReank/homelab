@@ -17,7 +17,7 @@ users:
     lock_passwd: false
     passwd: $6$IP1HFfvYOQ4CPg3z$PkIih8cknj6GnlRM/lWenFR/.qKE72HaQLtuFgEkqQgEpcfi1c/asNuEc3pn0FlZUAROm78HHv277.5m7YbLs.
     ssh_authorized_keys:
-      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJV0r+HZgSfDwNunybihpXpTo7Fb2ULbcUhXs9nWnhU+ sastrakarya0@gmail.com
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIESceWasl6qM6flG/OHrDDl3sAdT5iypjTWIKXYenyh2 sastrakarya0@gmail.com
 
 ssh_pwauth: false
 disable_root: true
